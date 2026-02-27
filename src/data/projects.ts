@@ -436,7 +436,7 @@ export const projects: ProjectLink[] = [
     url: 'https://luncdaily.com',
     description: 'News website',
     indicator: 'onchain',
-    logo: '/public/logos/media/luncdaily.png',
+    logo: '/public/logos/media/luncdaily.svg',
     categories: ['information']
   },
   { 
@@ -834,4 +834,44 @@ export const projects: ProjectLink[] = [
     logo: '/public/logos/dex/wesoworld.png',
     categories: ['dex']
   },
+  { 
+    name: 'Orbit Wire',
+    url: 'https://orbitwire.io',
+    description: 'Aggregator',
+    indicator: 'onchain',
+    logo: '/public/logos/applications/orbitwire.svg',
+    categories: ['applications']
+  },
+  {
+    name: 'BruteMove!',
+    url: 'https://brutemove.net',
+    description: 'On-Chain Chess Game',
+    indicator: 'onchain',
+    logo: '/public/logos/applications/brutemove.png',
+    categories: ['applications', 'entertainment']
+  },
+  { 
+    name: 'Truth Dashboard',
+    url: 'https://truth.terra-classic.money',
+    description: 'Analytics',
+    indicator: 'onchain',
+    logo: '/public/logos/applications/truth-dashboard.png',
+    categories: ['tools', 'information']
+  },
+  {
+    name: 'State of the Chain (2022-2026)',
+    url: 'https://terra-classic.money',
+    description: 'Independend Report',
+    indicator: 'onchain',
+    logo: '/public/logos/applications/terra-classic-money.png',
+    categories: ['information']
+  },
+  {
+    name: "Genesis Raid",
+    url: 'https://genesisraid.com',
+    description: 'Play-to-Earn RPG game',
+    indicator: 'onchain',
+    logo: '/public/logos/entertainment/genesisraid.png',
+    categories: ['entertainment']
+  }
 ];
